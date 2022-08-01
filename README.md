@@ -1,4 +1,4 @@
 # Group-Project-
 
-Summer
-Jaclyn Huff
+- Summer Kenney
+- Jaclyn Huff
