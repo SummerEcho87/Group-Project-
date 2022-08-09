@@ -45,3 +45,43 @@ Limitations
 
 Risks
 
+I went ahead and created a project proposal. Please make notes of any areas you would like to change. 
+
+Data Science Program Final Project
+Executive Summary
+At the end of the Data Science program, students are required to complete a final project of their choice. They are given six weeks to work on the project. This project will be completed by Summer Kenney, Jaclyn Huff and David Flores.
+Business Objectives
+To showcase the skills that the team members have acquired through the Data Science program. They will be using R, Python, Tableau, SQL, and other programs to wrangle, analyze, and visualize various data sets on popular streaming services made available by Kaggle.
+At the end of the project, the team should be able to explain their work in layman’s term, and present their findings to the students, faculty, staff, and potential employers, along with other interested parties via Zoom.
+Background
+As a way to activate and put practical use to what the students have learned, doing a final project is a good way to demonstrate that.
+Summer, Jaclyn and David chose to work with streaming data because they feel that art is a great reflection of the life and times and the shows and movies consumed are a fascinating area of study. 
+Scope
+The team will be using the software taught in the program to complete the project. Primarily, this team will be working in Jupyter Lab using Python and R, as well as Tableau to create graphics.  They will be intentional on using tools of their interest or tools that may aid finding a job. They may choose to use additional software/tools as needed. 
+Functional requirements
+Data Wrangling: The downloaded dataset should be successfully cleaned up for analyzing. Columns and unusable columns should be removed. As each team member is working on a separate data set it will be up to the individual to perform the work necessary. 
+Data Analysis: The team will work to familiarize themselves with the dataset. They should have a good understanding of what each column means, and how the values are measured. They will brainstorm on questions to ask, and what they might gather from the dataset. Then, they will identify the proper functions to create models, predictions, etc.
+Data Visualization: Once the team has created and successfully run the appropriate tests on the data they will us software such as Tableau to create visually appealing graphics and then import them into a PowerPoint presentation.  
+Presentation: Working with school leaders, Summer, Jaclyn and David will schedule a time to present their findings via Zoom. They should be able to communicate in a clear and easy-to-understand manner. The presentation should be kept around 20 minutes. They should be dressed professionally for this occasion.
+Personnel requirements
+Summer, Jaclyn and David are the two developers. They will need to work closely for this project to succeed. They will touch base once a day via Zoom or Slack to problem-solve or to check in on work progresses. Once a week, they will review the past week workload and plan out the next week. They will take turns being the scrum master, and report their progress to their instructor (Product Owner.) 
+Once a week, they will meet with their instructor. They should be prepared to ask questions and seek guidance for the next steps.
+
+
+Delivery schedule
+Week 1: Complete ‘get to know you’ assignments. Create project proposal. Find data sets. Create KANBAN board and comprehensive schedule/gameplan. 
+Week 2: Study the datasets and ask questions. What are some possible correlations? Is the data normally distributed? What are some predictive models we can make from it? Visualize the data to see if there are any interesting findings.
+Week 3: Modeling/Optimization (Combined Stepwise - Forward and Backward Selection) and Machine Learning (Random Forest.)
+Week 4: Take findings and begin to import data into Tableau to create graphics. Work on creating ‘about me’ sections and make sure the presentation is coherent. 
+Week 5: Compile findings into a Power Point slideshow. Go over it with their instructor and friend/family member to ensure that the presentation is clear and logical. Work on the style and layout of the presentation. 
+Week 6: Make final touches to the Power Point presentation. They should practice presenting at least a couple times as a team, and at least once with their instructor.
+Other requirements
+All programs used should be free of charge. Though the team may decide to pay for graphic design programs when creating the final project. 
+Assumptions
+The software programs and platforms the team uses should be available, up-to-date, and not broken. 
+Limitations
+Working together as a remote team they may run into issues with scheduling. Working with time zones and various schedules may lead to delay. 
+Risks
+The risks that may arise are such like natural disasters, power outages, family emergencies or broken software/hardware are minimal. The team is eager to complete the program so there should be no motivation issues. The risk if this project being incomplete is minimal.
+
+
