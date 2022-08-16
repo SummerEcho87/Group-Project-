@@ -55,7 +55,7 @@ To showcase the skills that the team members have acquired through the Data Scie
 At the end of the project, the team should be able to explain their work in layman’s term, and present their findings to the students, faculty, staff, and potential employers, along with other interested parties via Zoom.
 Background
 As a way to activate and put practical use to what the students have learned, doing a final project is a good way to demonstrate that.
-Summer, Jaclyn and David chose to work with streaming data because they feel that art is a great reflection of the life and times and the shows and movies consumed are a fascinating area of study. 
+Summer, Jaclyn, David and Caitlin chose to work with streaming data because they feel that art is a great reflection of the life and times and the shows and movies consumed are a fascinating area of study. 
 Scope
 The team will be using the software taught in the program to complete the project. Primarily, this team will be working in Jupyter Lab using Python and R, as well as Tableau to create graphics.  They will be intentional on using tools of their interest or tools that may aid finding a job. They may choose to use additional software/tools as needed. 
 Functional requirements
@@ -64,13 +64,15 @@ Data Analysis: The team will work to familiarize themselves with the dataset. Th
 Data Visualization: Once the team has created and successfully run the appropriate tests on the data they will us software such as Tableau to create visually appealing graphics and then import them into a PowerPoint presentation.  
 Presentation: Working with school leaders, Summer, Jaclyn and David will schedule a time to present their findings via Zoom. They should be able to communicate in a clear and easy-to-understand manner. The presentation should be kept around 20 minutes. They should be dressed professionally for this occasion.
 Personnel requirements
-Summer, Jaclyn and David are the two developers. They will need to work closely for this project to succeed. They will touch base once a day via Zoom or Slack to problem-solve or to check in on work progresses. Once a week, they will review the past week workload and plan out the next week. They will take turns being the scrum master, and report their progress to their instructor (Product Owner.) 
+Summer, Jaclyn David and Caitlin are developers. They will need to work closely for this project to succeed. They will touch base once a day via Zoom or Slack to problem-solve or to check in on work progresses. Once a week, they will review the past week workload and plan out the next week. They will take turns being the scrum master, and report their progress to their instructor (Product Owner.) 
 Once a week, they will meet with their instructor. They should be prepared to ask questions and seek guidance for the next steps.
 
 
 Delivery schedule
 Week 1: Complete ‘get to know you’ assignments. Create project proposal. Find data sets. Create KANBAN board and comprehensive schedule/gameplan. 
+(Completed)
 Week 2: Study the datasets and ask questions. What are some possible correlations? Is the data normally distributed? What are some predictive models we can make from it? Visualize the data to see if there are any interesting findings.
+()
 Week 3: Modeling/Optimization (Combined Stepwise - Forward and Backward Selection) and Machine Learning (Random Forest.)
 Week 4: Take findings and begin to import data into Tableau to create graphics. Work on creating ‘about me’ sections and make sure the presentation is coherent. 
 Week 5: Compile findings into a Power Point slideshow. Go over it with their instructor and friend/family member to ensure that the presentation is clear and logical. Work on the style and layout of the presentation. 
