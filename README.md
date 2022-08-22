@@ -2,5 +2,5 @@
 
 - Summer Kenney
 - Jaclyn Huff
-
+- Caitlin McDaniel
 
