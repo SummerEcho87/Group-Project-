@@ -52,10 +52,11 @@ MeansRunTimeMOVIE10
 TotalMeansRunTime10 <- HuluMOVIE10 %>% summarize(Mean = mean(runtime))
 TotalMeansRunTime10
 
-#How have SHOW runtimes changed over the decades?
-
-
-
+# Question:2 How have movies and shows times changed throughout the decades?
+# Creating  Data Frames for Movies.
+HuluSHOW <- (Hulu_titles%>% filter(type %in% c('SHOW')))
+write.csv(HuluSHOW,"View(Hulu_titles)", row.names = FALSE)
+HuluSHOW
 
 
 
