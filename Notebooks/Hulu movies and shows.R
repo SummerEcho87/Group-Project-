@@ -1,22 +1,17 @@
 # Importing Packages
 
-library("mvnormtest")
-library("car")
-library("dplyr")
-library("ggplot2")
-library("rcompanion")
-library("IDPmisc")
-library("caret")
-library("gvlma")
-library("predictmeans")
-library("e1071")
-library("lmtest")
+library(tidyverse)
 
 #Loading Dataset
 View(Hulu_titles)
 
-# Checking out the dataset
+#Expolre the Hulu Dataset
 head(Hulu_titles)
+tail(Hulu_titles)
+str(Hulu_titles)
+summary(Hulu_titles)
+
+glimpse(Hulu_titles)
 
 # Question:1 How have movies and shows times changed throughout the decades?
 # Creating  Data Frames for Movies.
@@ -57,6 +52,8 @@ TotalMeansRunTime10
 HuluSHOW <- (Hulu_titles %>% filter(type %in% c('SHOW')))
 write.csv(HuluSHOW,".View(Hulu_titles)", row.names = FALSE)
 head(HuluSHOW)
+
+
 
 
 
