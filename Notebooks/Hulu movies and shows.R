@@ -55,6 +55,7 @@ nrow(HuluMOVIE00[!is.na(HuluMOVIE00$runtime),])
 # sample size of group j(sum)(mean of group j- overall mean)2
 # Performing a Kruskal-Wallis test for data that is non-parametic (in our case uneven sample sizes)?
 nrow(HuluMOVIE[!is.na(HuluMOVIE$runtime),])
+
 # How have SHOW runtimes changed over the decades?
 # Creating Data Frame for Shows.
 HuluSHOW <- (Hulu_titles %>% filter(type %in% c('SHOW')))
@@ -88,6 +89,18 @@ MeansRunTimeSHOW10
 #2010's Overall Means Run Time
 TotalMeansRunTime10 <- HuluSHOW10 %>% summarize(Mean = mean(runtime))
 TotalMeansRunTime10
+nrow(HuluSHOW90[!is.na(HuluSHOW90$runtime),])
+nrow(HuluSHOW10[!is.na(HuluSHOW10$runtime),])
+nrow(HuluSHOW00[!is.na(HuluSHOW00$runtime),])
+# nΣ(Xj – X..)2
+#n: the sample size of group j Σ: a greek symbol that means “sum” Xj: the mean of group j X..: the overall mean
+#sample size of group j(sum)(mean of group j- overall mean)2
 
+# Perform a Kruskal-Wallis test for data that is non-parametic (in our case uneven sample sizes)?
+nrow(HuluSHOW[!is.na(HuluSHOW$runtime),])
 
+#Perform a Kruskall-Wallis Test to test for analysis of variance when non-parametic
+#(in our case uneven sample sizes)
+# Kruskall-Wallis Test for variance of runtime of movies by year
+kruskal.test(runtime ~ release_year,  data=HuluSHOW)
 
