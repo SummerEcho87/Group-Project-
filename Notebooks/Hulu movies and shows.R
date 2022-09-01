@@ -103,4 +103,9 @@ nrow(HuluSHOW[!is.na(HuluSHOW$runtime),])
 #(in our case uneven sample sizes)
 # Kruskall-Wallis Test for variance of runtime of movies by year
 kruskal.test(runtime ~ release_year,  data=HuluSHOW)
+# P-value shows a significant difference in the average show runtime
+
+# Kruskall-Wallis Test for variance of runtime of movies by year
+kruskal.test(runtime ~ release_year, data = HuluMOVIE)
+
 
