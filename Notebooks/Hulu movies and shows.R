@@ -107,5 +107,49 @@ kruskal.test(runtime ~ release_year,  data=HuluSHOW)
 
 # Kruskall-Wallis Test for variance of runtime of movies by year
 kruskal.test(runtime ~ release_year, data = HuluMOVIE)
+# Since this p-value is greater than 0.05, we can reject the null hypothesis that the median runtime is the same across the years
+
+# How Have IMDB ratings changed for shows over the decades?
+IMDB<-HuluSHOW %>% group_by(release_year) %>% summarize(Mean = mean(imdb_score, na.rm = TRUE))
+IMDB
+mean(HuluSHOW90$imdb_score, na.rm = TRUE)
+mean(HuluSHOW00$imdb_score, na.rm = TRUE)
+mean(HuluSHOW10$imdb_score, na.rm = TRUE)
+kruskal.test(imdb_score ~ release_year, data = HuluSHOW)
+
+# How Have IMDB ratings changed for movies over the decades?
+IMDB<-HuluMOVIE %>% group_by(release_year) %>% summarize(Mean = mean(imdb_score, na.rm = TRUE))
+IMDB
+mean(HuluMOVIE90$imdb_score, na.rm = TRUE)
+mean(HuluMOVIE00$imdb_score, na.rm = TRUE)
+mean(HuluMOVIE10$imdb_score, na.rm = TRUE)
+kruskal.test(imdb_score ~ release_year, data = HuluMOVIE)
+
+# Lets Compare Hulu IMDB scores to the Average IMDB score for streaming services (Netlfix, Hulu and HBO)
+# Hulu Movie Average IMDB score
+Hulu_MOVIE_mean = mean(HuluMOVIE$imdb_score, na.rm = TRUE)
+Hulu_MOVIE_mean
+# Hulu Movie Average IMDB score is 6.2
+
+# Hulu Shows Average IMDB score
+Hulu_SHOW_mean = mean(HuluSHOW$imdb_score, na.rm = TRUE)
+Hulu_SHOW_mean
+# Show Show Average IMDB score is 7.0
+
+# T-TEST for Movies - Is there a significant difference between the average Hulu Mmvie 
+# IMDB score and the overall IMDB score for streaming services?
+t_obj <- t.test(HuluMOVIE$imdb_score, mu = 6.2)
+print(t_obj)
+# As we can see that the P-value is less than .05. We can see that Hulu movies have a significantly 
+# lower IMDB score at 6.2 than the overall average score of 6.4
+
+# T-TEST for Shows - Is there a significant difference between the average Hulu show 
+# IMDB score and the overall IMDB score for streaming services?
+t_obj <- t.test(HuluSHOW$imdb_score, mu = 7.0)
+print(t_obj)
+# AS we can see that the P-value is greater than .05 so there is NOT a signifcant difference in averages. 
+# The Average Netflix score of 7.0 is the same as the overall average of 7.0  
+
+
 
 
