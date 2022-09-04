@@ -129,12 +129,12 @@ kruskal.test(imdb_score ~ release_year, data = HuluMOVIE)
 # Hulu Movie Average IMDB score
 Hulu_MOVIE_mean = mean(HuluMOVIE$imdb_score, na.rm = TRUE)
 Hulu_MOVIE_mean
-# Hulu Movie Average IMDB score is 6.2
+# Hulu Movie Average IMDB score is 6.1
 
 # Hulu Shows Average IMDB score
 Hulu_SHOW_mean = mean(HuluSHOW$imdb_score, na.rm = TRUE)
 Hulu_SHOW_mean
-# Show Show Average IMDB score is 7.0
+# Show Show Average IMDB score is 7.1
 
 # T-TEST for Movies - Is there a significant difference between the average Hulu Mmvie 
 # IMDB score and the overall IMDB score for streaming services?
@@ -147,8 +147,8 @@ print(t_obj)
 # IMDB score and the overall IMDB score for streaming services?
 t_obj <- t.test(HuluSHOW$imdb_score, mu = 7.0)
 print(t_obj)
-# AS we can see that the P-value is greater than .05 so there is NOT a signifcant difference in averages. 
-# The Average Netflix score of 7.0 is the same as the overall average of 7.0  
+# AS we can see that the P-value is less than .05 so there is NOT a signifcant difference in averages. 
+# The Average Hulu score of 7.0 is the same as the overall average of 7.0  
 
 
 
